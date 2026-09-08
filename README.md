@@ -2,6 +2,16 @@
 
 Évaluation **Symfony 7.3** réalisée à l'IIM (décembre 2025). Une petite application de gestion scolaire : des classes, et des élèves rattachés à une classe.
 
+## Contexte
+
+Projet académique réalisé à l'IIM en décembre 2025, en équipe de trois avec [@AilesVax](https://github.com/AilesVax) et [@maximilien-ilic](https://github.com/maximilien-ilic), dans le cadre d'une évaluation Symfony sur une journée.
+
+## Ma contribution
+
+J'ai développé la partie « élèves » : le contrôleur `EleveController`, le formulaire `EleveType` avec le choix de la classe via `EntityType`, et les templates `templates/eleve/index.html.twig` et `templates/eleve/ajouter.html.twig`.
+
+Mes coéquipiers ont mis en place le squelette Symfony, les entités, la base de données et la partie « classes ».
+
 ## Modèle de données
 
 - **Classe** : `nom_classe`, `niveau`, et la liste de ses élèves
